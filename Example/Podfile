@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ICSerializer_Tests' do
+  pod 'ICSerializer', :path => '../'
+  
+  
+end
