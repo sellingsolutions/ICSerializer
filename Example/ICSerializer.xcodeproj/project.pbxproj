@@ -7,24 +7,59 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		80F9F74C2147FE8B00A9F96B /* ISerializable+Deserialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F74B2147FE8B00A9F96B /* ISerializable+Deserialize.swift */; };
-		80F9F7502147FEC900A9F96B /* Assignee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F74E2147FEC900A9F96B /* Assignee.swift */; };
-		80F9F7512147FEC900A9F96B /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F74F2147FEC900A9F96B /* Issue.swift */; };
+		6A0DB348E45FF79D374ED5A7 /* Pods_Serializer_ICSerializerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2753B162621EDF6CCF9786 /* Pods_Serializer_ICSerializerDemo.framework */; };
+		80F9F7AA21480F1700A9F96B /* Assignee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F79F21480F1700A9F96B /* Assignee.swift */; };
+		80F9F7AB21480F1700A9F96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A021480F1700A9F96B /* ViewController.swift */; };
+		80F9F7AC21480F1700A9F96B /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A121480F1700A9F96B /* Issue.swift */; };
+		80F9F7AD21480F1700A9F96B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80F9F7A221480F1700A9F96B /* Assets.xcassets */; };
+		80F9F7AE21480F1700A9F96B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F9F7A321480F1700A9F96B /* LaunchScreen.storyboard */; };
+		80F9F7AF21480F1700A9F96B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F9F7A521480F1700A9F96B /* Main.storyboard */; };
+		80F9F7B021480F1700A9F96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A721480F1700A9F96B /* AppDelegate.swift */; };
+		80F9F7B121480F1700A9F96B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80F9F7A821480F1700A9F96B /* Info.plist */; };
+		80F9F7B6214810B000A9F96B /* ISerializable+Deserialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */; };
+		8FD0B8B737A8C1C271889385 /* Pods_ICSerializerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8606C72F2C5F46C853E5148 /* Pods_ICSerializerDemo.framework */; };
 		B2183B4A2F52C1EC8126B9E7 /* Pods_ICSerializer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DF1F727CA383A7B0C70847 /* Pods_ICSerializer_Tests.framework */; };
+		F4566B2F33FEF758E6CBC68B /* Pods_Serializer_ICSerializer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D85E3137D67AD2FE1F5DD5 /* Pods_Serializer_ICSerializer_Tests.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		80F9F7B221480FD600A9F96B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80F9F78921480ED700A9F96B;
+			remoteInfo = ICSerializerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		23D85E3137D67AD2FE1F5DD5 /* Pods_Serializer_ICSerializer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Serializer_ICSerializer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		276201E1C8893945700E139A /* Pods-Serializer-ICSerializerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializerDemo/Pods-Serializer-ICSerializerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2C40DD71737425BB6924D44A /* Pods-Serializer-ICSerializer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializer_Tests/Pods-Serializer-ICSerializer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A337DE617B36C151270850D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		602A8C5570F43B12104C4406 /* Pods-Serializer-ICSerializerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializerDemo/Pods-Serializer-ICSerializerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* ICSerializer_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ICSerializer_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		80F9F74B2147FE8B00A9F96B /* ISerializable+Deserialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "ISerializable+Deserialize.swift"; path = "../../../../ICSerializer/ICSerializerTests/ISerializable+Deserialize.swift"; sourceTree = "<group>"; };
-		80F9F74E2147FEC900A9F96B /* Assignee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignee.swift; sourceTree = "<group>"; };
-		80F9F74F2147FEC900A9F96B /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		80F9F78A21480ED700A9F96B /* ICSerializerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICSerializerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F9F79F21480F1700A9F96B /* Assignee.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assignee.swift; sourceTree = "<group>"; };
+		80F9F7A021480F1700A9F96B /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80F9F7A121480F1700A9F96B /* Issue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Issue.swift; sourceTree = "<group>"; };
+		80F9F7A221480F1700A9F96B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80F9F7A421480F1700A9F96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80F9F7A621480F1700A9F96B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80F9F7A721480F1700A9F96B /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80F9F7A821480F1700A9F96B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISerializable+Deserialize.swift"; sourceTree = "<group>"; };
+		843F111605B9A8B190DC8F17 /* Pods-ICSerializerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		95D763913E6CA8BB912994F9 /* Pods-ICSerializerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		96DF1F727CA383A7B0C70847 /* Pods_ICSerializer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICSerializer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA671900236A3768AA18C02 /* Pods-ICSerializer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		A777326C671A90DA9FCE358E /* ICSerializer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ICSerializer.podspec; path = ../ICSerializer.podspec; sourceTree = "<group>"; };
+		A777326C671A90DA9FCE358E /* ICSerializer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ICSerializer.podspec; path = ../ICSerializer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C857497D39B6FCB616E66C63 /* Pods-ICSerializer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8606C72F2C5F46C853E5148 /* Pods_ICSerializerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICSerializerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF31CFECD414FF122D7417 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F36371B052B00B245A783FDC /* Pods-Serializer-ICSerializer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializer_Tests/Pods-Serializer-ICSerializer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FE2753B162621EDF6CCF9786 /* Pods_Serializer_ICSerializerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Serializer_ICSerializerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +68,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2183B4A2F52C1EC8126B9E7 /* Pods_ICSerializer_Tests.framework in Frameworks */,
+				F4566B2F33FEF758E6CBC68B /* Pods_Serializer_ICSerializer_Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F9F78721480ED700A9F96B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A0DB348E45FF79D374ED5A7 /* Pods_Serializer_ICSerializerDemo.framework in Frameworks */,
+				8FD0B8B737A8C1C271889385 /* Pods_ICSerializerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +89,12 @@
 			children = (
 				C857497D39B6FCB616E66C63 /* Pods-ICSerializer_Tests.debug.xcconfig */,
 				9BA671900236A3768AA18C02 /* Pods-ICSerializer_Tests.release.xcconfig */,
+				2C40DD71737425BB6924D44A /* Pods-Serializer-ICSerializer_Tests.debug.xcconfig */,
+				F36371B052B00B245A783FDC /* Pods-Serializer-ICSerializer_Tests.release.xcconfig */,
+				276201E1C8893945700E139A /* Pods-Serializer-ICSerializerDemo.debug.xcconfig */,
+				602A8C5570F43B12104C4406 /* Pods-Serializer-ICSerializerDemo.release.xcconfig */,
+				95D763913E6CA8BB912994F9 /* Pods-ICSerializerDemo.debug.xcconfig */,
+				843F111605B9A8B190DC8F17 /* Pods-ICSerializerDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -51,7 +102,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				80F9F74D2147FEC900A9F96B /* Source */,
+				80F9F79C21480F1700A9F96B /* ICSerializerDemo */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
@@ -64,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACE51AFB9204008FA782 /* ICSerializer_Tests.xctest */,
+				80F9F78A21480ED700A9F96B /* ICSerializerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -71,7 +123,7 @@
 		607FACE81AFB9204008FA782 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				80F9F74B2147FE8B00A9F96B /* ISerializable+Deserialize.swift */,
+				80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -95,11 +147,25 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		80F9F74D2147FEC900A9F96B /* Source */ = {
+		80F9F79C21480F1700A9F96B /* ICSerializerDemo */ = {
 			isa = PBXGroup;
 			children = (
-				80F9F74E2147FEC900A9F96B /* Assignee.swift */,
-				80F9F74F2147FEC900A9F96B /* Issue.swift */,
+				80F9F79E21480F1700A9F96B /* Source */,
+				80F9F7A221480F1700A9F96B /* Assets.xcassets */,
+				80F9F7A321480F1700A9F96B /* LaunchScreen.storyboard */,
+				80F9F7A521480F1700A9F96B /* Main.storyboard */,
+				80F9F7A721480F1700A9F96B /* AppDelegate.swift */,
+				80F9F7A821480F1700A9F96B /* Info.plist */,
+			);
+			path = ICSerializerDemo;
+			sourceTree = "<group>";
+		};
+		80F9F79E21480F1700A9F96B /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				80F9F7A121480F1700A9F96B /* Issue.swift */,
+				80F9F79F21480F1700A9F96B /* Assignee.swift */,
+				80F9F7A021480F1700A9F96B /* ViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -108,6 +174,9 @@
 			isa = PBXGroup;
 			children = (
 				96DF1F727CA383A7B0C70847 /* Pods_ICSerializer_Tests.framework */,
+				23D85E3137D67AD2FE1F5DD5 /* Pods_Serializer_ICSerializer_Tests.framework */,
+				FE2753B162621EDF6CCF9786 /* Pods_Serializer_ICSerializerDemo.framework */,
+				C8606C72F2C5F46C853E5148 /* Pods_ICSerializerDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -129,11 +198,32 @@
 			buildRules = (
 			);
 			dependencies = (
+				80F9F7B321480FD600A9F96B /* PBXTargetDependency */,
 			);
 			name = ICSerializer_Tests;
 			productName = Tests;
 			productReference = 607FACE51AFB9204008FA782 /* ICSerializer_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80F9F78921480ED700A9F96B /* ICSerializerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80F9F79921480ED800A9F96B /* Build configuration list for PBXNativeTarget "ICSerializerDemo" */;
+			buildPhases = (
+				CCA91AAC5A64CA7457D72F9A /* [CP] Check Pods Manifest.lock */,
+				80F9F78621480ED700A9F96B /* Sources */,
+				80F9F78721480ED700A9F96B /* Frameworks */,
+				80F9F78821480ED700A9F96B /* Resources */,
+				0C919C5DCBEA3BE6F49DB902 /* [CP] Embed Pods Frameworks */,
+				4C8063EB8C28C7DFC7A4D432 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ICSerializerDemo;
+			productName = ICSerializerDemo;
+			productReference = 80F9F78A21480ED700A9F96B /* ICSerializerDemo.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -141,14 +231,19 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
-						TestTargetID = 607FACCF1AFB9204008FA782;
+						ProvisioningStyle = Manual;
+						TestTargetID = 80F9F78921480ED700A9F96B;
+					};
+					80F9F78921480ED700A9F96B = {
+						CreatedOnToolsVersion = 9.4.1;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -165,6 +260,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
+				80F9F78921480ED700A9F96B /* ICSerializerDemo */,
 				607FACE41AFB9204008FA782 /* ICSerializer_Tests */,
 			);
 		};
@@ -178,9 +274,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		80F9F78821480ED700A9F96B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F9F7B121480F1700A9F96B /* Info.plist in Resources */,
+				80F9F7AF21480F1700A9F96B /* Main.storyboard in Resources */,
+				80F9F7AD21480F1700A9F96B /* Assets.xcassets in Resources */,
+				80F9F7AE21480F1700A9F96B /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0C919C5DCBEA3BE6F49DB902 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ICSerializer/ICSerializer.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ICSerializer.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		40F5DA09468FB1F1FAAA639A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -199,6 +324,21 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		4C8063EB8C28C7DFC7A4D432 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		AAFFCBFDA9F3947981AE4852 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -211,6 +351,24 @@
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ICSerializer_Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCA91AAC5A64CA7457D72F9A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ICSerializerDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -239,13 +397,49 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F9F7502147FEC900A9F96B /* Assignee.swift in Sources */,
-				80F9F74C2147FE8B00A9F96B /* ISerializable+Deserialize.swift in Sources */,
-				80F9F7512147FEC900A9F96B /* Issue.swift in Sources */,
+				80F9F7B6214810B000A9F96B /* ISerializable+Deserialize.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80F9F78621480ED700A9F96B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80F9F7AB21480F1700A9F96B /* ViewController.swift in Sources */,
+				80F9F7AA21480F1700A9F96B /* Assignee.swift in Sources */,
+				80F9F7B021480F1700A9F96B /* AppDelegate.swift in Sources */,
+				80F9F7AC21480F1700A9F96B /* Issue.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80F9F7B321480FD600A9F96B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80F9F78921480ED700A9F96B /* ICSerializerDemo */;
+			targetProxy = 80F9F7B221480FD600A9F96B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80F9F7A321480F1700A9F96B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F9F7A421480F1700A9F96B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		80F9F7A521480F1700A9F96B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80F9F7A621480F1700A9F96B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		607FACED1AFB9204008FA782 /* Debug */ = {
@@ -260,12 +454,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -293,7 +489,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -313,12 +509,14 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -339,7 +537,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -351,9 +549,12 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C857497D39B6FCB616E66C63 /* Pods-ICSerializer_Tests.debug.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(SRCROOT)/Pods/**",
 				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -363,9 +564,10 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICSerializer_Example.app/ICSerializer_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICSerializerDemo.app/ICSerializerDemo";
 			};
 			name = Debug;
 		};
@@ -373,17 +575,75 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9BA671900236A3768AA18C02 /* Pods-ICSerializer_Tests.release.xcconfig */;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
+					"$(SRCROOT)/Pods/**",
 				);
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICSerializer_Example.app/ICSerializer_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ICSerializerDemo.app/ICSerializerDemo";
+			};
+			name = Release;
+		};
+		80F9F79A21480ED800A9F96B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95D763913E6CA8BB912994F9 /* Pods-ICSerializerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ICSerializerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.sellingsolutions.ICSerializerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80F9F79B21480ED800A9F96B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843F111605B9A8B190DC8F17 /* Pods-ICSerializerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = ICSerializerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.sellingsolutions.ICSerializerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -404,6 +664,15 @@
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,
 				607FACF41AFB9204008FA782 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80F9F79921480ED800A9F96B /* Build configuration list for PBXNativeTarget "ICSerializerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80F9F79A21480ED800A9F96B /* Debug */,
+				80F9F79B21480ED800A9F96B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

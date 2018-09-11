@@ -10,17 +10,17 @@ import Foundation
 import ObjectiveC
 
 @objcMembers
-@objc public class ICSerializable: NSObject, ICIntrospectable, ICUndesiredKeys {
+@objc open class ICSerializable: NSObject, ICIntrospectable, ICUndesiredKeys {
     
     /// The Objc Runtime reflection is implemented using type erasure, which means that you can't see what type an array has. e.g. you'd get NSArray instead of [Issue]
     /// Which is why we're forced to ask for the array types in each class that inherits from ICSerializable
     /// https://stackoverflow.com/a/31040348/2536815
-    public var arrayTypes: [String: AnyClass]?
+    open var arrayTypes: [String: AnyClass]?
     
     // [ "keyNameToExcludeFromSerialization" ]
     
     /// Properties that won't be serialized
-    public var keysToNotSerialize: [String]? = ["description", "arrayTypes", "keysToNotSerialize", "serializationKeyTransforms"]
+    open var keysToNotSerialize: [String]? = ["description", "arrayTypes", "keysToNotSerialize", "serializationKeyTransforms"]
     
     // Uses the original key name when fetching the value from the NSObject
     // Uses the destination key name when serializing to JSON
@@ -125,7 +125,7 @@ import ObjectiveC
     /// - Returns: The deserialized object which will be an instance of the given className
     
     private static func deserialize(_ dictionary: ICJSONDictionary, with className: String) -> ICSerializable? {
-        let target = ICTarget.currentTarget()
+        let target = ICTarget.target(for: self)
         let classPath = "\(target)\(className)"
         
         if let classType = NSClassFromString(classPath) {

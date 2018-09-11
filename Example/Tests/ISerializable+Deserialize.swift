@@ -7,7 +7,7 @@
 //
 
 import XCTest
-@testable import ICSerializer
+@testable import ICSerializerDemo
 
 class ISerializable_Deserialize: XCTestCase {
     

@@ -7,12 +7,12 @@
 //
 
 import Foundation
+import ObjectiveC
 
 public class ICTarget: NSObject {
-    static private let _class: AnyClass = ICTarget().classForCoder
-    public static func currentTarget () -> String {
-        let classPath = NSStringFromClass(_class)
-        let target = classPath.replacingOccurrences(of: "ICTarget", with: "")
+    public static func target (for objectType: ICSerializable.Type) -> String {
+        let _class = objectType.classForCoder()
+        let target = NSStringFromClass(_class).replacingOccurrences(of: "\(objectType)", with: "")
         return target
     }
 }

@@ -5,6 +5,7 @@
 //  Created by Alexander Selling on 2018-09-09.
 //  Copyright © 2018 Alexander Selling. All rights reserved.
 //
+import ICSerializer
 
 class Issue: ICSerializable {
     

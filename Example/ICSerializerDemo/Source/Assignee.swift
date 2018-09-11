@@ -6,6 +6,8 @@
 //  Copyright © 2018 Alexander Selling. All rights reserved.
 //
 
+import ICSerializer
+
 class Assignee: ICSerializable {
     override var keysToNotSerialize: [String]? {
         get {

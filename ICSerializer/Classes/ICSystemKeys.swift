@@ -7,22 +7,20 @@
 //
 
 import Foundation
+
 public class ICSystemKeys: NSObject {
         
     public static func toPropertyType(_ propTypeSignature: String) -> String {
         
-        let target = ICTarget.currentTarget().replacingOccurrences(of: ".", with: "")
-        let propTypePadding = "\(target)8"
-        
         // The Objc Runtime reflection is implemented using type erasure for array types, which means we can't see what type an array has, e.g. issue.assignees
         // but that's only true for array types, property_getAttributes will return the type of object types, e.g. issue.assignee
         // So that is what we're looking for in the propTypeSignature, we're looking for the property type, e.g. `Assignee`
-        if propTypeSignature.range(of: propTypePadding) != nil {
+        if propTypeSignature.range(of: "8") != nil {
             let scanner = Scanner(string: propTypeSignature)
             var type: NSString?
-            // Each propTypeSignature is prefixed by the target name
-            scanner.scanUpTo(propTypePadding, into: nil)
-            scanner.scanString(propTypePadding, into: nil)
+            // The property type is always prefixed by the char '8'
+            scanner.scanUpTo("8", into: nil)
+            scanner.scanString("8", into: nil)
             // The propTypeSignature always delimits the property type with a "
             scanner.scanUpTo("\"", into: &type)
             
