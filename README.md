@@ -22,7 +22,7 @@ pod 'ICSerializer'
 
 ## Author
 
-sellingsolutions, alexander@icontrolapp.se
+Alexander Selling, alexander@icontrolapp.se
 
 ## License
 
