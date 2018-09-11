@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ICSerializer'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of ICSerializer.'
+  s.summary          = 'A serializer that will do deep clones of infinitely nested json graphs.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,25 +18,20 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A serializer that will do deep clones of infinitely nested json graphs. Much like the latest version of Codable in Swift 4, you don't have to write any boiler plate code for ICSerializer to serialize/deserialize your objects. Just make your classes inherit from ICSerializable and you're done
                        DESC
 
-  s.homepage         = 'https://github.com/sellingsolutions/ICSerializer'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://icontrolapp.se/en'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sellingsolutions' => 'alexander@icontrolapp.se' }
   s.source           = { :git => 'https://github.com/sellingsolutions/ICSerializer.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.social_media_url = 'https://twitter.com/zno85'
 
-  s.source_files = 'ICSerializer/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ICSerializer' => ['ICSerializer/Assets/*.png']
-  # }
+  s.swift_version = '4.0'
+  s.ios.deployment_target = '10.0'
+  s.requires_arc = true
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'ICSerializer/Classes/**/*.swift'
+  s.frameworks = 'Foundation'
 end

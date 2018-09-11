@@ -1,0 +1,6 @@
+framework module Pods_ICSerializer_Tests {
+  umbrella header "Pods-ICSerializer_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

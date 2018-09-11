@@ -1,0 +1,16 @@
+PODS:
+  - ICSerializer (0.1.0)
+
+DEPENDENCIES:
+  - ICSerializer (from `../`)
+
+EXTERNAL SOURCES:
+  ICSerializer:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ICSerializer: bda5a8794b8c92a0fec3499c353a1ff15fb648f8
+
+PODFILE CHECKSUM: 474af1a154902b889964ccaacc5eec06dc0c3bc2
+
+COCOAPODS: 1.4.0

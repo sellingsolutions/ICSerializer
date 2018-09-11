@@ -1,0 +1,6 @@
+framework module ICSerializer {
+  umbrella header "ICSerializer-umbrella.h"
+
+  export *
+  module * { export * }
+}
