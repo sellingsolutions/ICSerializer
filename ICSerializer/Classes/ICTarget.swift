@@ -11,8 +11,7 @@ import ObjectiveC
 
 public class ICTarget: NSObject {
     public static func target (for objectType: ICSerializable.Type) -> String {
-        let _class = objectType.classForCoder()
-        let target = NSStringFromClass(_class).replacingOccurrences(of: "\(objectType)", with: "")
+        let target = NSStringFromClass(objectType).replacingOccurrences(of: "\(objectType)", with: "")
         return target
     }
 }
