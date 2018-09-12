@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6A0DB348E45FF79D374ED5A7 /* Pods_Serializer_ICSerializerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE2753B162621EDF6CCF9786 /* Pods_Serializer_ICSerializerDemo.framework */; };
 		80F9F7AA21480F1700A9F96B /* Assignee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F79F21480F1700A9F96B /* Assignee.swift */; };
 		80F9F7AB21480F1700A9F96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A021480F1700A9F96B /* ViewController.swift */; };
 		80F9F7AC21480F1700A9F96B /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A121480F1700A9F96B /* Issue.swift */; };
@@ -17,9 +16,6 @@
 		80F9F7B021480F1700A9F96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A721480F1700A9F96B /* AppDelegate.swift */; };
 		80F9F7B121480F1700A9F96B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80F9F7A821480F1700A9F96B /* Info.plist */; };
 		80F9F7B6214810B000A9F96B /* ISerializable+Deserialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */; };
-		8FD0B8B737A8C1C271889385 /* Pods_ICSerializerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8606C72F2C5F46C853E5148 /* Pods_ICSerializerDemo.framework */; };
-		B2183B4A2F52C1EC8126B9E7 /* Pods_ICSerializer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DF1F727CA383A7B0C70847 /* Pods_ICSerializer_Tests.framework */; };
-		F4566B2F33FEF758E6CBC68B /* Pods_Serializer_ICSerializer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23D85E3137D67AD2FE1F5DD5 /* Pods_Serializer_ICSerializer_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +29,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		23D85E3137D67AD2FE1F5DD5 /* Pods_Serializer_ICSerializer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Serializer_ICSerializer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		276201E1C8893945700E139A /* Pods-Serializer-ICSerializerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializerDemo/Pods-Serializer-ICSerializerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2C40DD71737425BB6924D44A /* Pods-Serializer-ICSerializer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializer_Tests/Pods-Serializer-ICSerializer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A337DE617B36C151270850D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -52,14 +47,11 @@
 		80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISerializable+Deserialize.swift"; sourceTree = "<group>"; };
 		843F111605B9A8B190DC8F17 /* Pods-ICSerializerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.release.xcconfig"; sourceTree = "<group>"; };
 		95D763913E6CA8BB912994F9 /* Pods-ICSerializerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		96DF1F727CA383A7B0C70847 /* Pods_ICSerializer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICSerializer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BA671900236A3768AA18C02 /* Pods-ICSerializer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A777326C671A90DA9FCE358E /* ICSerializer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ICSerializer.podspec; path = ../ICSerializer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C857497D39B6FCB616E66C63 /* Pods-ICSerializer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C8606C72F2C5F46C853E5148 /* Pods_ICSerializerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICSerializerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAF31CFECD414FF122D7417 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F36371B052B00B245A783FDC /* Pods-Serializer-ICSerializer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializer_Tests/Pods-Serializer-ICSerializer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FE2753B162621EDF6CCF9786 /* Pods_Serializer_ICSerializerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Serializer_ICSerializerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,8 +59,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B2183B4A2F52C1EC8126B9E7 /* Pods_ICSerializer_Tests.framework in Frameworks */,
-				F4566B2F33FEF758E6CBC68B /* Pods_Serializer_ICSerializer_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,8 +66,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A0DB348E45FF79D374ED5A7 /* Pods_Serializer_ICSerializerDemo.framework in Frameworks */,
-				8FD0B8B737A8C1C271889385 /* Pods_ICSerializerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,10 +161,6 @@
 		C7EF9A117AC459C697323094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				96DF1F727CA383A7B0C70847 /* Pods_ICSerializer_Tests.framework */,
-				23D85E3137D67AD2FE1F5DD5 /* Pods_Serializer_ICSerializer_Tests.framework */,
-				FE2753B162621EDF6CCF9786 /* Pods_Serializer_ICSerializerDemo.framework */,
-				C8606C72F2C5F46C853E5148 /* Pods_ICSerializerDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
