@@ -32,7 +32,7 @@ public class ICSystemKeys: NSObject {
         return ""
     }
     
-    static func isSystemKey(_ key: String) -> Bool {
+    public static func isSystemKey(_ key: String) -> Bool {
         if key.isEmpty {
             return true
         }
