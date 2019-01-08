@@ -27,7 +27,7 @@ import ObjectiveC
     // e.g. [ "originalKeyName" : "destinationKeyName" ]
     
     /// Properties that will have its name transformed to avoid conflicts
-    public var serializationKeyTransforms: [String : String]? = ["_description" : "description"]
+    open var serializationKeyTransforms: [String : String]? = ["_description" : "description"]
     
     required public override init() {
         super.init()
