@@ -18,6 +18,7 @@
 		80F9F7B021480F1700A9F96B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A721480F1700A9F96B /* AppDelegate.swift */; };
 		80F9F7B121480F1700A9F96B /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80F9F7A821480F1700A9F96B /* Info.plist */; };
 		80F9F7B6214810B000A9F96B /* ISerializable+Deserialize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */; };
+		F8E8FFD221E647EB00A6ABF7 /* ICSystemKeysTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E8FFD121E647EB00A6ABF7 /* ICSystemKeysTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		C857497D39B6FCB616E66C63 /* Pods-ICSerializer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		CEAF31CFECD414FF122D7417 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F36371B052B00B245A783FDC /* Pods-Serializer-ICSerializer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializer_Tests/Pods-Serializer-ICSerializer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		F8E8FFD121E647EB00A6ABF7 /* ICSystemKeysTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ICSystemKeysTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */,
+				F8E8FFD121E647EB00A6ABF7 /* ICSystemKeysTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -357,6 +360,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8E8FFD221E647EB00A6ABF7 /* ICSystemKeysTests.swift in Sources */,
 				80F9F7B6214810B000A9F96B /* ISerializable+Deserialize.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
