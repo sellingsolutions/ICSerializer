@@ -54,22 +54,35 @@ import ObjectiveC
             }
             
             // We only serialize properties that have a value, props that are nil will be ignored
-            if let objectValue: AnyObject = originalValue as AnyObject? {
-                if let array = objectValue as? [ICSerializable], option == .deep {
-                    var _array = [AnyObject]()
-                    for e in array {
-                        let dict = e.serializeToDictionary()
-                        _array.append(dict as AnyObject)
-                    }
-                    dictionary[jsonKey] = _array as AnyObject?
-                } else if let obj = objectValue as? ICSerializable {
-                    let dict = obj.serializeToDictionary()
-                    dictionary[jsonKey] = dict as AnyObject?
-                } else if let date = objectValue as? Date {
-                    dictionary[jsonKey] = date.description as AnyObject?
-                } else {
-                    dictionary[jsonKey] = objectValue
+            guard let objectValue: AnyObject = originalValue as AnyObject? else {
+                continue
+            }
+            
+            if objectValue is UIImage {
+                continue
+            }
+            
+            if objectValue is UIColor {
+                continue
+            }
+            
+            if let array = objectValue as? [ICSerializable], option == .deep {
+                var _array = [AnyObject]()
+                for e in array {
+                    let dict = e.serializeToDictionary()
+                    _array.append(dict as AnyObject)
                 }
+                dictionary[jsonKey] = _array as AnyObject?
+            }
+            else if let obj = objectValue as? ICSerializable {
+                let dict = obj.serializeToDictionary()
+                dictionary[jsonKey] = dict as AnyObject?
+            }
+            else if let date = objectValue as? Date {
+                dictionary[jsonKey] = date.description as AnyObject?
+            }
+            else {
+                dictionary[jsonKey] = objectValue
             }
         }
         return dictionary
