@@ -7,38 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		06BDEE69E334E18C613BC670B43D6E58 /* ICIntrospectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57E2BAF362F7AF1FFED013B726FA6C /* ICIntrospectable.swift */; };
-		2AE5E91A10B2122041DD425A002DD46A /* Pods-ICSerializer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60223FC26E76D4CF5672D8E79F2BA146 /* Pods-ICSerializer_Tests-dummy.m */; };
-		31FF2485155AD337ABD47A99877E7931 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		3703EBEB7136112175CB0E70A4CE3A29 /* ICTypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1311D7E9F30FE5C2046B45EB5F49E7 /* ICTypeAliases.swift */; };
-		374CE992BF4F075219A7800465DD0DA0 /* ICUndesiredKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8C2B70A3E64FDBC9375906DC43519 /* ICUndesiredKeys.swift */; };
-		40451D008CAA408959709F6B90FABE2A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		44B34F03052346B4C0BBB279790E3204 /* Pods-ICSerializerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1F2F47C00457C27FCE6D84446E8958 /* Pods-ICSerializerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		648AF16CC136C82D67145BE0D95F38E3 /* ICSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF47C9C69FC2497DEA58D06DA4666EF /* ICSerializable.swift */; };
-		65B28C21122204EA3F6D8511575764C8 /* ICSerializer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7DDD9F889F85FB5A8322E36C5FE1E2 /* ICSerializer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		960FCD5B21A9E3511E841F634631D7E3 /* NSObject+ICReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308BC5AC1E49C283820389E86A3ED4F /* NSObject+ICReflection.swift */; };
-		9C761DB82AA0C1E706410C3630B5D884 /* Pods-ICSerializerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B2C82570B31FD0755C1D230B3F597 /* Pods-ICSerializerDemo-dummy.m */; };
-		A338B51FE09F1B042FA525EE9A78C26B /* ICSerializer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B06C986CAB79B20A7D885513A7AE6 /* ICSerializer-dummy.m */; };
-		AF556560C668DE9BDC4C06562F4AC020 /* ICTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBBE84DCDEC24447F32812EB739AB67 /* ICTarget.swift */; };
-		B644214FFA4099B007E7F7DC83C06165 /* Pods-ICSerializer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF62365BA430ED9AF4DB66455FBD532 /* Pods-ICSerializer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B6E433B397C3AA6B571619AE1922DEFD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		C1218649020299D3026583407C7149BF /* ICSerializationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28D3E2FA1DE1402EC78F08D2316401 /* ICSerializationOption.swift */; };
-		E06D5A1051794CEAE630959F00F96A86 /* ICSystemKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF4BBEE43177D2B065E80F8CB7D1A6 /* ICSystemKeys.swift */; };
+		062ECF95AB07EA07B1C4EAFDD0DB45EC /* Pods-ICSerializer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 60223FC26E76D4CF5672D8E79F2BA146 /* Pods-ICSerializer_Tests-dummy.m */; };
+		1861C787BF02BACD1176D167E6DA816E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		276DB9ED25E6640B165852ADB0A32724 /* ICSerializer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B77B06C986CAB79B20A7D885513A7AE6 /* ICSerializer-dummy.m */; };
+		355098AFF1A25236CEA5C63815445472 /* ICTypeAliases.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA1311D7E9F30FE5C2046B45EB5F49E7 /* ICTypeAliases.swift */; };
+		41BD8ADB7C149FB5E7A3C40843AA5314 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		5474DCF6D0E7994A9C018D24C2580E0D /* ICSerializer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F7DDD9F889F85FB5A8322E36C5FE1E2 /* ICSerializer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62C5CB348DE4FB2FF65B71D5B85AF98B /* Pods-ICSerializerDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AB1F2F47C00457C27FCE6D84446E8958 /* Pods-ICSerializerDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9C18A65FD300F277A6294CEE8AEF44CB /* ICSerializable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF47C9C69FC2497DEA58D06DA4666EF /* ICSerializable.swift */; };
+		A1496281F93B58FF5BAF6B65F6EFA405 /* ICSerializationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F28D3E2FA1DE1402EC78F08D2316401 /* ICSerializationOption.swift */; };
+		A321A1F90BBA158376ECE73A8A717C31 /* ICTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EBBE84DCDEC24447F32812EB739AB67 /* ICTarget.swift */; };
+		A63C05EA4ED380A6F1EA5F94218271E3 /* Pods-ICSerializer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CDF62365BA430ED9AF4DB66455FBD532 /* Pods-ICSerializer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BB8D0E482454C5F43A765E405F4C44B0 /* ICIntrospectable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A57E2BAF362F7AF1FFED013B726FA6C /* ICIntrospectable.swift */; };
+		BE226E00195DE7CF2365B51DCCA0F5FF /* ICUndesiredKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8C2B70A3E64FDBC9375906DC43519 /* ICUndesiredKeys.swift */; };
+		E8CB8915BCD3CDADCA17CB9555EA3C64 /* ICSystemKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFF4BBEE43177D2B065E80F8CB7D1A6 /* ICSystemKeys.swift */; };
+		EACC0EE3EDA4FB559B5F8162FCE7A126 /* NSObject+ICReflection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3308BC5AC1E49C283820389E86A3ED4F /* NSObject+ICReflection.swift */; };
+		F10838272201343579CD87EE4B89D8FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FE70E8486FA97B436E709D8BDFAD47E7 /* Pods-ICSerializerDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D46B2C82570B31FD0755C1D230B3F597 /* Pods-ICSerializerDemo-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CF25A2D953B6FD68E3DC7A70CCA2127D /* PBXContainerItemProxy */ = {
+		0235BF04F29736FA13FF211E3A4178FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C99D6871DFB7C12D6CDF01C8BAFFEF20;
+			remoteGlobalIDString = B1538122DB8E571C12E7C672BFB48C72;
 			remoteInfo = ICSerializer;
 		};
-		F91BB6852ACF33DFACFE69EE69CAC161 /* PBXContainerItemProxy */ = {
+		EF3C8FCB2064743B6F707A70B589E728 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C99D6871DFB7C12D6CDF01C8BAFFEF20;
+			remoteGlobalIDString = B1538122DB8E571C12E7C672BFB48C72;
 			remoteInfo = ICSerializer;
 		};
 /* End PBXContainerItemProxy section */
@@ -54,10 +54,10 @@
 		4FFF4BBEE43177D2B065E80F8CB7D1A6 /* ICSystemKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICSystemKeys.swift; path = ICSerializer/Classes/ICSystemKeys.swift; sourceTree = "<group>"; };
 		51809D587A50837AA22C70E73D33E020 /* Pods-ICSerializer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICSerializer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		53A2EBB521F6C1B17E44E3C654D4E77C /* Pods-ICSerializer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-ICSerializer_Tests.modulemap"; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5B22DFE1B4D6EEE216A9561BBD99BC96 /* Pods-ICSerializerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ICSerializerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		5EF47C9C69FC2497DEA58D06DA4666EF /* ICSerializable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICSerializable.swift; path = ICSerializer/Classes/ICSerializable.swift; sourceTree = "<group>"; };
 		60223FC26E76D4CF5672D8E79F2BA146 /* Pods-ICSerializer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ICSerializer_Tests-dummy.m"; sourceTree = "<group>"; };
-		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		6AE8C2B70A3E64FDBC9375906DC43519 /* ICUndesiredKeys.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ICUndesiredKeys.swift; path = ICSerializer/Classes/ICUndesiredKeys.swift; sourceTree = "<group>"; };
 		730D93B5074B9F95DE851A73DBF0AEAD /* Pods_ICSerializerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ICSerializerDemo.framework; path = "Pods-ICSerializerDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79BFB572E2667E424B53399FA510BB71 /* Pods-ICSerializer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ICSerializer_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -89,27 +89,27 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		771909DD559ECDF2A7A81DAF20B36FCC /* Frameworks */ = {
+		5B8C47DEF5106C2B284F51B6A611E028 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40451D008CAA408959709F6B90FABE2A /* Foundation.framework in Frameworks */,
+				F10838272201343579CD87EE4B89D8FC /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90A0C31940FE53DF11681D24A17C22B2 /* Frameworks */ = {
+		78BBDA1007412F8FFCCD724D8C055910 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31FF2485155AD337ABD47A99877E7931 /* Foundation.framework in Frameworks */,
+				1861C787BF02BACD1176D167E6DA816E /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F5BF06C75C22692947861EF7FF961320 /* Frameworks */ = {
+		D1DF7962AB8895C50E84EC144A3BC21E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6E433B397C3AA6B571619AE1922DEFD /* Foundation.framework in Frameworks */,
+				41BD8ADB7C149FB5E7A3C40843AA5314 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -179,6 +179,14 @@
 			path = "Target Support Files/Pods-ICSerializer_Tests";
 			sourceTree = "<group>";
 		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
@@ -217,17 +225,9 @@
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
-			);
-			name = iOS;
 			sourceTree = "<group>";
 		};
 		F2525E773BF373EBD96C9762BFD0F370 /* ICSerializer */ = {
@@ -251,58 +251,60 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		304B9E6E674AADA202831197B6504D71 /* Headers */ = {
+		7FCCE9CD20C499775EA8D1DD9C29F4EA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B644214FFA4099B007E7F7DC83C06165 /* Pods-ICSerializer_Tests-umbrella.h in Headers */,
+				5474DCF6D0E7994A9C018D24C2580E0D /* ICSerializer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		99592E57A0002FBEA3872056B45FDA37 /* Headers */ = {
+		AC548C53BA11A1F3C0791081EB7C365A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				65B28C21122204EA3F6D8511575764C8 /* ICSerializer-umbrella.h in Headers */,
+				62C5CB348DE4FB2FF65B71D5B85AF98B /* Pods-ICSerializerDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CE3157D4C93EF4B11524D2C281B03626 /* Headers */ = {
+		F0022BF29965AB8DB1D287E0533604F6 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44B34F03052346B4C0BBB279790E3204 /* Pods-ICSerializerDemo-umbrella.h in Headers */,
+				A63C05EA4ED380A6F1EA5F94218271E3 /* Pods-ICSerializer_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		34396564E2DBB742EEB5C37657A0ED01 /* Pods-ICSerializerDemo */ = {
+		287C83D97EF052D33FCF0EDDD996F206 /* Pods-ICSerializerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6CA803A0D9388E7D4E5F3AE268A26346 /* Build configuration list for PBXNativeTarget "Pods-ICSerializerDemo" */;
+			buildConfigurationList = 36FA6021795B9A4670C6623467446A03 /* Build configuration list for PBXNativeTarget "Pods-ICSerializerDemo" */;
 			buildPhases = (
-				277FD8608BEF5A53BBE244D58D649A04 /* Sources */,
-				771909DD559ECDF2A7A81DAF20B36FCC /* Frameworks */,
-				CE3157D4C93EF4B11524D2C281B03626 /* Headers */,
+				AC548C53BA11A1F3C0791081EB7C365A /* Headers */,
+				B4509CF1495E1AD43B01CD400CDE70BA /* Sources */,
+				D1DF7962AB8895C50E84EC144A3BC21E /* Frameworks */,
+				A9B6B5D4A1F460679334CE01E28EF86F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EF36973FF6B71315B8F82206483C62F5 /* PBXTargetDependency */,
+				847703204EE2C5B8BD7FDD0F290D27B9 /* PBXTargetDependency */,
 			);
 			name = "Pods-ICSerializerDemo";
 			productName = "Pods-ICSerializerDemo";
 			productReference = 730D93B5074B9F95DE851A73DBF0AEAD /* Pods_ICSerializerDemo.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C99D6871DFB7C12D6CDF01C8BAFFEF20 /* ICSerializer */ = {
+		B1538122DB8E571C12E7C672BFB48C72 /* ICSerializer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F407620F4505610221B077856C25C56 /* Build configuration list for PBXNativeTarget "ICSerializer" */;
+			buildConfigurationList = 652994AECA504CB8DF7E2027E3E4FE51 /* Build configuration list for PBXNativeTarget "ICSerializer" */;
 			buildPhases = (
-				B75751A7B50DA8441F9A6994118D653F /* Sources */,
-				F5BF06C75C22692947861EF7FF961320 /* Frameworks */,
-				99592E57A0002FBEA3872056B45FDA37 /* Headers */,
+				7FCCE9CD20C499775EA8D1DD9C29F4EA /* Headers */,
+				DD5D5E9D0F53910B88B09BA768476161 /* Sources */,
+				78BBDA1007412F8FFCCD724D8C055910 /* Frameworks */,
+				75ED2A0A5DEDCE47D5D4D2BFD90F4CC3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -313,18 +315,19 @@
 			productReference = C1E879434D09980ED73201FA7630D351 /* ICSerializer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F734633F1204AA42A91C4A1F57DD8D4B /* Pods-ICSerializer_Tests */ = {
+		CBB99DF81EE76620ADBC5651B6052679 /* Pods-ICSerializer_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E762362DF73CEAB7DCB6B8556D804448 /* Build configuration list for PBXNativeTarget "Pods-ICSerializer_Tests" */;
+			buildConfigurationList = C38835280E667148E723D62461659924 /* Build configuration list for PBXNativeTarget "Pods-ICSerializer_Tests" */;
 			buildPhases = (
-				9E4290AB98B1FCA41E105687506D3007 /* Sources */,
-				90A0C31940FE53DF11681D24A17C22B2 /* Frameworks */,
-				304B9E6E674AADA202831197B6504D71 /* Headers */,
+				F0022BF29965AB8DB1D287E0533604F6 /* Headers */,
+				5A2406AFC53DD127496FCFEDE0292D82 /* Sources */,
+				5B8C47DEF5106C2B284F51B6A611E028 /* Frameworks */,
+				54C7DA0F8CEA80BB926AB4A4BA86EBA0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				190FBF9E2307835DC9D1C00E796849A3 /* PBXTargetDependency */,
+				5043FF5A2424FA470CAC36D0C5AC6827 /* PBXTargetDependency */,
 			);
 			name = "Pods-ICSerializer_Tests";
 			productName = "Pods-ICSerializer_Tests";
@@ -352,261 +355,93 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C99D6871DFB7C12D6CDF01C8BAFFEF20 /* ICSerializer */,
-				F734633F1204AA42A91C4A1F57DD8D4B /* Pods-ICSerializer_Tests */,
-				34396564E2DBB742EEB5C37657A0ED01 /* Pods-ICSerializerDemo */,
+				B1538122DB8E571C12E7C672BFB48C72 /* ICSerializer */,
+				CBB99DF81EE76620ADBC5651B6052679 /* Pods-ICSerializer_Tests */,
+				287C83D97EF052D33FCF0EDDD996F206 /* Pods-ICSerializerDemo */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXResourcesBuildPhase section */
+		54C7DA0F8CEA80BB926AB4A4BA86EBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75ED2A0A5DEDCE47D5D4D2BFD90F4CC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B6B5D4A1F460679334CE01E28EF86F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		277FD8608BEF5A53BBE244D58D649A04 /* Sources */ = {
+		5A2406AFC53DD127496FCFEDE0292D82 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9C761DB82AA0C1E706410C3630B5D884 /* Pods-ICSerializerDemo-dummy.m in Sources */,
+				062ECF95AB07EA07B1C4EAFDD0DB45EC /* Pods-ICSerializer_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9E4290AB98B1FCA41E105687506D3007 /* Sources */ = {
+		B4509CF1495E1AD43B01CD400CDE70BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2AE5E91A10B2122041DD425A002DD46A /* Pods-ICSerializer_Tests-dummy.m in Sources */,
+				FE70E8486FA97B436E709D8BDFAD47E7 /* Pods-ICSerializerDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B75751A7B50DA8441F9A6994118D653F /* Sources */ = {
+		DD5D5E9D0F53910B88B09BA768476161 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				06BDEE69E334E18C613BC670B43D6E58 /* ICIntrospectable.swift in Sources */,
-				648AF16CC136C82D67145BE0D95F38E3 /* ICSerializable.swift in Sources */,
-				C1218649020299D3026583407C7149BF /* ICSerializationOption.swift in Sources */,
-				A338B51FE09F1B042FA525EE9A78C26B /* ICSerializer-dummy.m in Sources */,
-				E06D5A1051794CEAE630959F00F96A86 /* ICSystemKeys.swift in Sources */,
-				AF556560C668DE9BDC4C06562F4AC020 /* ICTarget.swift in Sources */,
-				3703EBEB7136112175CB0E70A4CE3A29 /* ICTypeAliases.swift in Sources */,
-				374CE992BF4F075219A7800465DD0DA0 /* ICUndesiredKeys.swift in Sources */,
-				960FCD5B21A9E3511E841F634631D7E3 /* NSObject+ICReflection.swift in Sources */,
+				BB8D0E482454C5F43A765E405F4C44B0 /* ICIntrospectable.swift in Sources */,
+				9C18A65FD300F277A6294CEE8AEF44CB /* ICSerializable.swift in Sources */,
+				A1496281F93B58FF5BAF6B65F6EFA405 /* ICSerializationOption.swift in Sources */,
+				276DB9ED25E6640B165852ADB0A32724 /* ICSerializer-dummy.m in Sources */,
+				E8CB8915BCD3CDADCA17CB9555EA3C64 /* ICSystemKeys.swift in Sources */,
+				A321A1F90BBA158376ECE73A8A717C31 /* ICTarget.swift in Sources */,
+				355098AFF1A25236CEA5C63815445472 /* ICTypeAliases.swift in Sources */,
+				BE226E00195DE7CF2365B51DCCA0F5FF /* ICUndesiredKeys.swift in Sources */,
+				EACC0EE3EDA4FB559B5F8162FCE7A126 /* NSObject+ICReflection.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		190FBF9E2307835DC9D1C00E796849A3 /* PBXTargetDependency */ = {
+		5043FF5A2424FA470CAC36D0C5AC6827 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ICSerializer;
-			target = C99D6871DFB7C12D6CDF01C8BAFFEF20 /* ICSerializer */;
-			targetProxy = CF25A2D953B6FD68E3DC7A70CCA2127D /* PBXContainerItemProxy */;
+			target = B1538122DB8E571C12E7C672BFB48C72 /* ICSerializer */;
+			targetProxy = EF3C8FCB2064743B6F707A70B589E728 /* PBXContainerItemProxy */;
 		};
-		EF36973FF6B71315B8F82206483C62F5 /* PBXTargetDependency */ = {
+		847703204EE2C5B8BD7FDD0F290D27B9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ICSerializer;
-			target = C99D6871DFB7C12D6CDF01C8BAFFEF20 /* ICSerializer */;
-			targetProxy = F91BB6852ACF33DFACFE69EE69CAC161 /* PBXContainerItemProxy */;
+			target = B1538122DB8E571C12E7C672BFB48C72 /* ICSerializer */;
+			targetProxy = 0235BF04F29736FA13FF211E3A4178FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E8F49FC6CB89C32FAC05574FC00EE9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B22DFE1B4D6EEE216A9561BBD99BC96 /* Pods-ICSerializerDemo.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ICSerializerDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ICSerializerDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		2A2B1603C0121773A7142713C6C9816E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88B9ADEF71B12020C5691693C78C0508 /* ICSerializer.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ICSerializer/ICSerializer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ICSerializer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ICSerializer/ICSerializer.modulemap";
-				PRODUCT_NAME = ICSerializer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		49B5A78DBE571998053070754D3695E8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGNING_REQUIRED = NO;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		50D472C55D4014A37B856F06FAE3369C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D08675E2420D1D4D22040111D3E1E7A5 /* Pods-ICSerializerDemo.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ICSerializerDemo/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ICSerializerDemo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6E34E82BDFFA41C553CC9EDABE530AB0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88B9ADEF71B12020C5691693C78C0508 /* ICSerializer.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/ICSerializer/ICSerializer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ICSerializer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ICSerializer/ICSerializer.modulemap";
-				PRODUCT_NAME = ICSerializer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CDDA232B7A7C5E626A24D8971090DCF5 /* Debug */ = {
+		59BC6BFA73D415ABBBE6C7AEEED95F2F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51809D587A50837AA22C70E73D33E020 /* Pods-ICSerializer_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -627,7 +462,7 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ICSerializer_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -638,7 +473,185 @@
 			};
 			name = Debug;
 		};
-		DD369323FD85CB26347C0D75C75D837F /* Debug */ = {
+		5E4F592E449B6756571BAAB9DD6B21BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B22DFE1B4D6EEE216A9561BBD99BC96 /* Pods-ICSerializerDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICSerializerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7603118620431CE15F27C72F8133CFE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D08675E2420D1D4D22040111D3E1E7A5 /* Pods-ICSerializerDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICSerializerDemo/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79DB78FD867BB37EFBEFFB578D1419CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD226835E86C818146BF56087F536663 /* Pods-ICSerializer_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-ICSerializer_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BF85D91C2F13B4794FF35224875F26F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B9ADEF71B12020C5691693C78C0508 /* ICSerializer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICSerializer/ICSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICSerializer/ICSerializer.modulemap";
+				PRODUCT_MODULE_NAME = ICSerializer;
+				PRODUCT_NAME = ICSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C32B29DEB7D93557879852C0C3C6A7AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88B9ADEF71B12020C5691693C78C0508 /* ICSerializer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/ICSerializer/ICSerializer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ICSerializer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ICSerializer/ICSerializer.modulemap";
+				PRODUCT_MODULE_NAME = ICSerializer;
+				PRODUCT_NAME = ICSerializer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C92782E717C52E3633C9A5F211E7987A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -670,6 +683,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
 				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
@@ -691,86 +705,110 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		F92D578FC12DDDEC97D03EA421FAC5AE /* Release */ = {
+		EA8C7AF90938697605468604B2A17B9F /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BD226835E86C818146BF56087F536663 /* Pods-ICSerializer_Tests.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-ICSerializer_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_ICSerializer_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F407620F4505610221B077856C25C56 /* Build configuration list for PBXNativeTarget "ICSerializer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E34E82BDFFA41C553CC9EDABE530AB0 /* Debug */,
-				2A2B1603C0121773A7142713C6C9816E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				DD369323FD85CB26347C0D75C75D837F /* Debug */,
-				49B5A78DBE571998053070754D3695E8 /* Release */,
+				C92782E717C52E3633C9A5F211E7987A /* Debug */,
+				EA8C7AF90938697605468604B2A17B9F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6CA803A0D9388E7D4E5F3AE268A26346 /* Build configuration list for PBXNativeTarget "Pods-ICSerializerDemo" */ = {
+		36FA6021795B9A4670C6623467446A03 /* Build configuration list for PBXNativeTarget "Pods-ICSerializerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E8F49FC6CB89C32FAC05574FC00EE9 /* Debug */,
-				50D472C55D4014A37B856F06FAE3369C /* Release */,
+				5E4F592E449B6756571BAAB9DD6B21BF /* Debug */,
+				7603118620431CE15F27C72F8133CFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E762362DF73CEAB7DCB6B8556D804448 /* Build configuration list for PBXNativeTarget "Pods-ICSerializer_Tests" */ = {
+		652994AECA504CB8DF7E2027E3E4FE51 /* Build configuration list for PBXNativeTarget "ICSerializer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CDDA232B7A7C5E626A24D8971090DCF5 /* Debug */,
-				F92D578FC12DDDEC97D03EA421FAC5AE /* Release */,
+				BF85D91C2F13B4794FF35224875F26F9 /* Debug */,
+				C32B29DEB7D93557879852C0C3C6A7AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C38835280E667148E723D62461659924 /* Build configuration list for PBXNativeTarget "Pods-ICSerializer_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59BC6BFA73D415ABBBE6C7AEEED95F2F /* Debug */,
+				79DB78FD867BB37EFBEFFB578D1419CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

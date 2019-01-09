@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B6F77FAB42B8AFD6CD8315 /* Pods_ICSerializerDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93FF0F304211B8BF7FCF823B /* Pods_ICSerializerDemo.framework */; };
+		7562D5BF9A3BDB1E3DE4DA3E /* Pods_ICSerializer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 207EB3E613CFC6576393F39A /* Pods_ICSerializer_Tests.framework */; };
 		80F9F7AA21480F1700A9F96B /* Assignee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F79F21480F1700A9F96B /* Assignee.swift */; };
 		80F9F7AB21480F1700A9F96B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A021480F1700A9F96B /* ViewController.swift */; };
 		80F9F7AC21480F1700A9F96B /* Issue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F9F7A121480F1700A9F96B /* Issue.swift */; };
@@ -29,6 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		207EB3E613CFC6576393F39A /* Pods_ICSerializer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICSerializer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		276201E1C8893945700E139A /* Pods-Serializer-ICSerializerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializerDemo/Pods-Serializer-ICSerializerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		2C40DD71737425BB6924D44A /* Pods-Serializer-ICSerializer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Serializer-ICSerializer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Serializer-ICSerializer_Tests/Pods-Serializer-ICSerializer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5A337DE617B36C151270850D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
@@ -46,6 +49,7 @@
 		80F9F7A821480F1700A9F96B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80F9F7B4214810A500A9F96B /* ISerializable+Deserialize.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ISerializable+Deserialize.swift"; sourceTree = "<group>"; };
 		843F111605B9A8B190DC8F17 /* Pods-ICSerializerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializerDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		93FF0F304211B8BF7FCF823B /* Pods_ICSerializerDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ICSerializerDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		95D763913E6CA8BB912994F9 /* Pods-ICSerializerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializerDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		9BA671900236A3768AA18C02 /* Pods-ICSerializer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ICSerializer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A777326C671A90DA9FCE358E /* ICSerializer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ICSerializer.podspec; path = ../ICSerializer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -59,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7562D5BF9A3BDB1E3DE4DA3E /* Pods_ICSerializer_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B6F77FAB42B8AFD6CD8315 /* Pods_ICSerializerDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,6 +167,8 @@
 		C7EF9A117AC459C697323094 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				93FF0F304211B8BF7FCF823B /* Pods_ICSerializerDemo.framework */,
+				207EB3E613CFC6576393F39A /* Pods_ICSerializer_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -177,7 +185,6 @@
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
 				40F5DA09468FB1F1FAAA639A /* [CP] Embed Pods Frameworks */,
-				F5CFC2C7255E03B74F0F359F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -198,7 +205,6 @@
 				80F9F78721480ED700A9F96B /* Frameworks */,
 				80F9F78821480ED700A9F96B /* Resources */,
 				0C919C5DCBEA3BE6F49DB902 /* [CP] Embed Pods Frameworks */,
-				4C8063EB8C28C7DFC7A4D432 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -308,21 +314,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		4C8063EB8C28C7DFC7A4D432 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICSerializerDemo/Pods-ICSerializerDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		AAFFCBFDA9F3947981AE4852 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -357,21 +348,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F5CFC2C7255E03B74F0F359F /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ICSerializer_Tests/Pods-ICSerializer_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
