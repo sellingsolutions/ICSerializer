@@ -1,6 +1,6 @@
 {
   "name": "ICSerializer",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "A serializer that will do deep clones of infinitely nested json graphs.",
   "description": "A serializer that will do deep clones of infinitely nested json graphs. Much like the latest version of Codable in Swift 4, you don't have to write any boiler plate code for ICSerializer to serialize/deserialize your objects. Just make your classes inherit from ICSerializable and you're done",
   "homepage": "https://icontrolapp.se/en",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/sellingsolutions/ICSerializer.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "social_media_url": "https://twitter.com/zno85",
   "swift_version": "4.0",

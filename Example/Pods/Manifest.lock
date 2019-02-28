@@ -1,16 +1,16 @@
 PODS:
-  - ICSerializer (0.1.0)
+  - ICSerializer (1.0.0)
 
 DEPENDENCIES:
   - ICSerializer (from `../`)
 
 EXTERNAL SOURCES:
   ICSerializer:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  ICSerializer: d2548d6b0d28b734c29ad73b5ae8123fbabcb90b
+  ICSerializer: ac5bc8069f9860a32bcb9096e2b97d14c5f2d132
 
 PODFILE CHECKSUM: a5c42c0be79bbe5d709813b3d8607dc7944dbeed
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.5.3
