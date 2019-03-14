@@ -33,7 +33,8 @@ class ISerializable_Deserialize: XCTestCase {
     
     func test2_shouldExcludeUIKitObjects() {
         //given
-        let myProfile = Profile(name: "Ajith R Nayak", profilePhoto: UIImage(), favrtColor: UIColor.red)
+        let myProfile = Profile(name: "Ajith R Nayak", age: NSNumber(value: 25),
+                                profilePhoto: UIImage(), favrtColor: UIColor.red)
         // when
         let serializedIssue = myProfile.serializeToDictionary()
         let name = serializedIssue["name"]
@@ -45,18 +46,34 @@ class ISerializable_Deserialize: XCTestCase {
         XCTAssertNil(profilePhoto)
         XCTAssertNil(favrtColor)
     }
+    
+    func test3_includesNilValuePropertiesSuccessfully() {
+        //given
+        let myProfile = Profile()
+        myProfile.profilePhoto = UIImage()
+        myProfile.favrtColor = UIColor()
+        myProfile.age = NSNumber(value: 25)
+        // when
+        let serializedIssue = myProfile.serializeToDictionary()
+        //then
+        let name = serializedIssue["name"]
+        XCTAssertTrue(serializedIssue.keys.contains("name"))
+        XCTAssertNil(name)
+    }
 }
 
 extension ISerializable_Deserialize {
     
     class Profile: ICSerializable {
         var name: String?
+        var age: NSNumber?
         var profilePhoto: UIImage?
         var favrtColor: UIColor?
         
-        init(name: String, profilePhoto: UIImage,
-             favrtColor: UIColor) {
+        init(name: String, age: NSNumber?,
+             profilePhoto: UIImage, favrtColor: UIColor) {
             self.name = name
+            self.age = age
             self.profilePhoto = profilePhoto
             self.favrtColor = favrtColor
         }
@@ -64,6 +81,7 @@ extension ISerializable_Deserialize {
         required init() {
             super.init()
             self.name = nil
+            self.age = nil
             self.profilePhoto = nil
             self.favrtColor = nil
         }

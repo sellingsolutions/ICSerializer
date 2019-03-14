@@ -58,11 +58,8 @@ import ObjectiveC
                 continue
             }
             
-            if objectValue is UIImage {
-                continue
-            }
-            
-            if objectValue is UIColor {
+            //ignore UIKit objects
+            if objectValue is UIImage || objectValue is UIColor {
                 continue
             }
             
