@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ICSerializer'
-  s.version          = '1.0.0'
+  s.version          = '1.0.2'
   s.summary          = 'A serializer that will do deep clones of infinitely nested json graphs.'
 
   s.description      = <<-DESC
