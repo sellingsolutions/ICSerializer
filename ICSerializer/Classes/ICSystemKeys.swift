@@ -44,6 +44,16 @@ public class ICSystemKeys: NSObject {
         "keysToNotSerialize",
         "serializationKeyTransforms",
         
+        // iOS 13
+        "_accessibilityAutomationType",
+        "ax_buddyObservedTableViews",
+        "ax_buddyDynamicHeightConstraints",
+        "_axIsWrappedPointer",
+        "accessibilityRespondsToUserInteraction",
+        "accessibilityUserInputLabels",
+        "accessibilityAttributedUserInputLabels",
+        "accessibilityTextualContext",
+        
         // iOS 12
         "px_descriptionForAssertionMessage",
         
