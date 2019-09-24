@@ -41,13 +41,13 @@ class ISerializable_Deserialize: XCTestCase {
         let profilePhoto = serializedIssue["profilePhoto"]
         let favrtColor = serializedIssue["favrtColor"]
         //then
-        XCTAssertEqual(serializedIssue.count, 1)
+        XCTAssertEqual(serializedIssue.count, 2)
         XCTAssertNotNil(name)
         XCTAssertNil(profilePhoto)
         XCTAssertNil(favrtColor)
     }
     
-    func test3_includesNilValuePropertiesSuccessfully() {
+    func test3_excludesNilValuePropertiesSuccessfully() {
         //given
         let myProfile = Profile()
         myProfile.profilePhoto = UIImage()
@@ -57,7 +57,7 @@ class ISerializable_Deserialize: XCTestCase {
         let serializedIssue = myProfile.serializeToDictionary()
         //then
         let name = serializedIssue["name"]
-        XCTAssertTrue(serializedIssue.keys.contains("name"))
+        XCTAssertFalse(serializedIssue.keys.contains("name"))
         XCTAssertNil(name)
     }
 }
