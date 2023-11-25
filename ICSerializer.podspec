@@ -11,7 +11,7 @@ A serializer that will do deep clones of infinitely nested json graphs. Much lik
   s.homepage         = 'https://icontrolapp.se/en'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sellingsolutions' => 'alexander@icontrolapp.se' }
-  s.source           = { :git => 'https://github.com/sellingsolutions/ICSerializer.git', :tag => 'ver_0.1.0' }
+  s.source           = { :git => 'https://github.com/sellingsolutions/ICSerializer.git', :tag => '1.0.3' }
 
   s.social_media_url = 'https://twitter.com/zno85'
 
