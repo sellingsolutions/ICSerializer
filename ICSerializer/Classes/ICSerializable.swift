@@ -45,6 +45,9 @@ import ObjectiveC
         let properties = self.propertyDescriptions(keysToNotSerialize)
         
         for (propName, _) in properties {
+            guard self.responds(to: Selector(propName)) else {
+                continue
+            }
             let originalKeyName = propName
             let originalValue = value(forKey: originalKeyName)
             
