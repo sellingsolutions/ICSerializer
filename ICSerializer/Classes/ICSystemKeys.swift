@@ -36,10 +36,26 @@ public class ICSystemKeys: NSObject {
         if key.isEmpty {
             return true
         }
-        return systemKeys.contains(key)
+        return systemKeys.contains(key) || !systemKeys.filter({key.contains($0)}).isEmpty
     }
     
     private static let systemKeys: [String] = [
+        "accessibility",
+        "_accessibility",
+        "automation",
+        
+        "pspdf_",
+        "musicKit_",
+        "safari_",
+        "avkit_",
+        "fm_",
+        "ax_",
+        "_ax",
+        "px_",
+        "_px",
+        "_ui",
+        "_at",
+        
         // ICSerializable internal properties
         "keysToNotSerialize",
         "serializationKeyTransforms",
@@ -49,10 +65,6 @@ public class ICSystemKeys: NSObject {
         "ax_buddyObservedTableViews",
         "ax_buddyDynamicHeightConstraints",
         "_axIsWrappedPointer",
-        "accessibilityRespondsToUserInteraction",
-        "accessibilityUserInputLabels",
-        "accessibilityAttributedUserInputLabels",
-        "accessibilityTextualContext",
         
         // iOS 12
         "px_descriptionForAssertionMessage",
@@ -60,11 +72,6 @@ public class ICSystemKeys: NSObject {
         // iOS 11
         "_ui_descriptionBuilder",
         "_atvaccessibilityITMLAccessibilityContent",
-        "accessibilityContainerType",
-        "accessibilityLocalizedStringKey",
-        "accessibilityAttributedLabel",
-        "accessibilityAttributedHint",
-        "accessibilityAttributedValue",
         
         // iOS 10
         "hash",
@@ -76,33 +83,13 @@ public class ICSystemKeys: NSObject {
         "_px_reuseIdentifier",
         "accessibilityCustomRotors",
         "akToolbarButtonItemType",
-        "classForKeyedArchiver",
         
-        "accessibilityIdentifier",
-        "accessibilityElements",
-        "accessibilityCustomActions",
+       
         "isAccessibilityElement",
-        "accessibilityLabel",
-        "accessibilityHint",
-        "accessibilityValue",
-        "accessibilityTraits",
-        "accessibilityFrame",
-        "accessibilityPath",
-        "accessibilityActivationPoint",
-        "accessibilityLanguage",
-        "accessibilityElementsHidden",
-        "accessibilityViewIsModal",
         "shouldGroupAccessibilityChildren",
-        "accessibilityNavigationStyle",
-        "accessibilityHeaderElements",
         "traitStorageList",
         "autoContentAccessingProxy",
         "classForKeyedArchiver",
         "observationInfo",
-        
-        // PSPDFKit
-        "pspdf_KVOController",
-        "pspdf_KVOControllerUnretainedObserving",
-        "pspdf_accessibility",
     ]
 }

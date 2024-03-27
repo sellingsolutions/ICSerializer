@@ -27,7 +27,7 @@ extension NSObject {
         
         let allProperties = recursivelyFetchPropertyDescriptions()
         var nonSystemProperties = allProperties.filter { (name, type) -> Bool in
-            return !ICSystemKeys.isSystemKey(name)
+            return !ICSystemKeys.isSystemKey(name) && self.responds(to: Selector(name))
         }
         
         if let keysToIgnore = keysToIgnore {
