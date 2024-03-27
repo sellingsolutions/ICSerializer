@@ -13,7 +13,7 @@ A serializer that will do deep clones of infinitely nested json graphs. Much lik
   s.author           = { 'sellingsolutions' => 'alexander@icontrolapp.se' }
   s.source           = { :git => 'https://github.com/sellingsolutions/ICSerializer.git', :tag => '1.0.5' }
 
-  s.social_media_url = 'https://twitter.com/zno85'
+  s.social_media_url = 'https://www.linkedin.com/in/alexanderselling/'
 
   s.swift_version = '4.0'
   s.ios.deployment_target = '10.0'
