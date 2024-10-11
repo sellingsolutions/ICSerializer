@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ICSerializer'
-  s.version          = '1.0.5'
+  s.version          = '1.0.6'
   s.summary          = 'A serializer that will do deep clones of infinitely nested json graphs.'
 
   s.description      = <<-DESC
@@ -11,7 +11,7 @@ A serializer that will do deep clones of infinitely nested json graphs. Much lik
   s.homepage         = 'https://icontrolapp.se/en'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'sellingsolutions' => 'alexander@icontrolapp.se' }
-  s.source           = { :git => 'https://github.com/sellingsolutions/ICSerializer.git', :tag => '1.0.5' }
+  s.source           = { :git => 'https://github.com/sellingsolutions/ICSerializer.git', :tag => '1.0.6' }
 
   s.social_media_url = 'https://www.linkedin.com/in/alexanderselling/'
 
