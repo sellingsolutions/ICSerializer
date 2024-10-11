@@ -36,6 +36,9 @@ public class ICSystemKeys: NSObject {
         if key.isEmpty {
             return true
         }
+        if let first = key.first, first.isUppercase {
+            return true
+        }
         return systemKeys.contains(key) || !systemKeys.filter({key.contains($0)}).isEmpty
     }
     
@@ -55,6 +58,8 @@ public class ICSystemKeys: NSObject {
         "_px",
         "_ui",
         "_at",
+        "browser",
+        "ic_",
         
         // ICSerializable internal properties
         "keysToNotSerialize",
@@ -91,5 +96,7 @@ public class ICSystemKeys: NSObject {
         "autoContentAccessingProxy",
         "classForKeyedArchiver",
         "observationInfo",
+        "knownRepresentedElement",
+        "rotorOwnerElement"
     ]
 }
