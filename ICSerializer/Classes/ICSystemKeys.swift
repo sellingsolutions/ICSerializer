@@ -43,9 +43,15 @@ public class ICSystemKeys: NSObject {
     }
     
     private static let systemKeys: [String] = [
+        "isAccessibility",
         "accessibility",
         "_accessibility",
         "automation",
+        "browser",
+        "known",
+        "rotor",
+        "systemAperture",
+        "arrayTypes",
         
         "pspdf_",
         "musicKit_",
@@ -58,8 +64,8 @@ public class ICSystemKeys: NSObject {
         "_px",
         "_ui",
         "_at",
-        "browser",
         "ic_",
+        "mr_",
         
         // ICSerializable internal properties
         "keysToNotSerialize",
@@ -96,7 +102,10 @@ public class ICSystemKeys: NSObject {
         "autoContentAccessingProxy",
         "classForKeyedArchiver",
         "observationInfo",
-        "knownRepresentedElement",
-        "rotorOwnerElement"
+        
+        // iOS 18
+        "logID",
+        "uniquePresentableIdentifier",
+        "uniqueIdentifier",
     ]
 }
