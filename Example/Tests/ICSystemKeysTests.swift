@@ -15,19 +15,25 @@ class ICSystemKeysTests: XCTestCase {
         super.setUp()
     }
     
-    func test1_systemKeyExists() {
+    func systemKeyExists() {
         let validSystemKey = "px_descriptionForAssertionMessage"
         let exists = ICSystemKeys.isSystemKey(validSystemKey)
         XCTAssertTrue(exists)
     }
     
-    func test2_invalidSystemKey() {
-        let invalidSystemKey = "NotASystemKey"
+    func invalidSystemKey() {
+        let invalidSystemKey = "notSystemKey"
         let exists = ICSystemKeys.isSystemKey(invalidSystemKey)
         XCTAssertFalse(exists)
     }
     
-    func test3_emptySystemKey() {
+    func capitalizedSystemKey() {
+        let invalidSystemKey = "SystemKey"
+        let exists = ICSystemKeys.isSystemKey(invalidSystemKey)
+        XCTAssertTrue(exists)
+    }
+    
+    func emptySystemKey() {
         let emptyKey = ""
         let exists = ICSystemKeys.isSystemKey(emptyKey)
         XCTAssertTrue(exists)

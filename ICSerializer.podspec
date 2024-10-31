@@ -16,7 +16,7 @@ A serializer that will do deep clones of infinitely nested json graphs. Much lik
   s.social_media_url = 'https://www.linkedin.com/in/alexanderselling/'
 
   s.swift_version = '4.0'
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '15.0'
   s.requires_arc = true
 
   s.source_files = 'ICSerializer/Classes/**/*.swift'
